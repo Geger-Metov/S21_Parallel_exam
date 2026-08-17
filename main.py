@@ -4,12 +4,6 @@ from simulation import monitor, worker
 import multiprocessing as mp
 import time
 
-"""
-python3 -m venv .venv
-source .venv/bin/activate
-deactivate
-"""
-
 
 def main():
     examiners = get_examiners()
